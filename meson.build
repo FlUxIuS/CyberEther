@@ -10,6 +10,8 @@ project(
     ]
 )
 
+add_project_arguments('-Wno-error=designated-init', language: 'cpp')
+
 #
 # Global Variables
 #
